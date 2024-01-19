@@ -10,8 +10,6 @@ def roll_out():
     random_number = random.randrange(1, 7)
     print("You got", random_number)
 
-# if player_score < 25:
-# means the below code has to be exicute for all three players until the player_score get 25 or more than 25
 while player_score <= 25:
     for i in players_list:
         print("Player ", i, "turn")
