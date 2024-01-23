@@ -27,6 +27,8 @@ while player_score[i] <= 25:
             print("Total_score = ", player_score[i])
             if player_score[i] >= 25:
                 print("Winner is player ", i)
+                break
+
 
 
 
